@@ -33,13 +33,13 @@
     width: 100%;  
     height: 100%;
     border: none;
-    margin: 0;
-    background-color: #dadce0;
     border-radius: 5px;
+    color: #202124;
+    transition: .2s;
+    
     
     
 }
-
 
 
 .calculator div button:hover {
@@ -58,26 +58,19 @@
     border: 2px solid white;
     text-align: right;
     overflow-y: hidden; 
-    
+     
     
 }
 
 
 .calculator .display >h1{
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
     padding: 5px;
     font-size: 4em; 
     display: flex;
     flex-direction:row-reverse;
-   
-     
-}
-
-
-.calculator .display:hover{
-    background-color:black;
-    border-radius: 10px 10px 0 0;
-   
+    white-space: nowrap;
+       
 }
 
 .button-Add{
@@ -112,15 +105,26 @@
 }
 
 
-.calculator .ac-button > #ac{
+.calculator .function-button  > #ac{
     width: 202%;
-    
+      
+}
 
+
+.calculator .function-button  button{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #dadce0;
     
-   
+}
+
+.calculator .number-button button{
+    font-size: 15px;
+    font-weight: bold;
     
     
 }
+
 
 
 
